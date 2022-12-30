@@ -1,0 +1,42 @@
+h1{
+    text-align:center;
+    font-size:60px;
+    color:teal;
+}
+#keyboard{
+    width:330px;
+    height: 350px;
+    margin: auto;
+    margin-top:20px;
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,75px);
+    gap:10px;
+    justify-content: center;
+   padding: 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+}
+#keyboard>div{
+    box-shadow:black;
+    justify-content: center;
+    font-weight: 700;
+    padding: 25px;
+    display: flex;
+    border-radius: 10px;
+    font-size: 25px;
+    /* border: 5px solid blue; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#black{
+    background-color: black;
+    color:white;
+}
+#keyboard>div:hover{
+    cursor: pointer;
+    background-color: cadetblue;
+}
+#red{
+    background-color: crimson;
+    color: aliceblue;
+}
