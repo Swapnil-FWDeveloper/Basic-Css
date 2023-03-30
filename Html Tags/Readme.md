@@ -26,6 +26,7 @@
         The hr tag is used to make long line it is diffrent from u tag like eg
         <hr>
     </p>
+    
     <p>
         The br tag is used to br the any word/letter/sentence like 
         I am break tag original <br>
